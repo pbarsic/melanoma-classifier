@@ -33,3 +33,10 @@ PYTHONPATH=$(pwd) src/export_to_onnx.py --input_model_path /home/alex/runs/melan
 
 ## Apply the module:  
 The way that Alex intends to run this in the browser is to follow [this link](https://microsoft.github.io/onnxjs-demo/#/resnet50).
+
+
+## Install node packages:
+There are many ways to install Node.js. The best way is to use [NVM](https://github.com/nvm-sh/nvm), the Node Version Manager. This is similar to using Python virtual environments. It's what you want.
+```
+curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.35.3/install.sh | bash
+```
