@@ -36,7 +36,9 @@ The way that Alex intends to run this in the browser is to follow [this link](ht
 
 
 ## Install node packages:
-There are many ways to install Node.js. The best way is to use [NVM](https://github.com/nvm-sh/nvm), the Node Version Manager. This is similar to using Python virtual environments. It's what you want.
+There are many ways to install Node.js. The best way is to use [NVM](https://github.com/nvm-sh/nvm), the Node Version Manager. This is similar to using Python virtual environments. It's what you want. If you are going to make a react page, then you need to bootstrap the project, which is documented [here](https://github.com/facebook/create-react-app). This repository already has the react app generated in the `react-app` folder, so you don't need to do that.
 ```
 curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.35.3/install.sh | bash
+nvm install 10.16.0
+
 ```

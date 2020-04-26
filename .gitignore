@@ -5,3 +5,5 @@ bazel-testlogs
 build
 
 __pycache__
+
+*.swp
