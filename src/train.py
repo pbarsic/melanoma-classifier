@@ -54,7 +54,9 @@ def train(
         if highest_acc < num_right / total:
             highest_acc = num_right / total
 
-            torch.save(skin_mode.state_dict(), _SAVE_DIR / f"model-{highest_acc:.3}.pt")
+            torch.save(
+                skin_model.state_dict(), _SAVE_DIR / f"model-{highest_acc:.3}.pt"
+            )
             print(
                 f"Saving model with highest accuracy {highest_acc:.3} to {_SAVE_DIR}."
             )
